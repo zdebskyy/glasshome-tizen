@@ -756,6 +756,10 @@ button:focus {
   align-items: center;
   justify-content: center;
 }
+.control-selected:focus {
+  outline: 3px solid #fff8;
+  outline-offset: 4px;
+}
 .control-header .avatar {
   width: 35px;
   height: 35px;

@@ -53,17 +53,18 @@ You can also open `app/index.html` directly. Browser storage behavior can differ
 
 ## Controls
 
-| Input                                   | Action                                |
-| --------------------------------------- | ------------------------------------- |
-| Arrow keys                              | Move focus                            |
-| Enter                                   | Select the focused item               |
-| Escape / Backspace                      | Go back or cancel                     |
-| Up on a supported top-row tile          | Expand the sample background preview  |
-| Down / Escape in full-screen preview    | Return to Home                        |
-| Hold Enter on an app, or right-click it | Start rearranging                     |
-| Arrows while rearranging                | Move the picked-up app                |
-| Enter while rearranging                 | Save the order                        |
-| Escape while rearranging                | Cancel and restore the original order |
+| Input                                                   | Action                                              |
+| ------------------------------------------------------- | --------------------------------------------------- |
+| Arrow keys                                              | Move focus                                          |
+| Enter                                                   | Select the focused item                             |
+| Escape / Backspace                                      | Go back or cancel                                   |
+| Click outside Control Center, its top toggle, or Escape | Close Control Center and return focus to its opener |
+| Up on a supported top-row tile                          | Expand the sample background preview                |
+| Down / Escape in full-screen preview                    | Return to Home                                      |
+| Hold Enter on an app, or right-click it                 | Start rearranging                                   |
+| Arrows while rearranging                                | Move the picked-up app                              |
+| Enter while rearranging                                 | Save the order                                      |
+| Escape while rearranging                                | Cancel and restore the original order               |
 
 Mouse clicks work too. The toolbar below the TV canvas switches between Home, the app grid and Settings. These are preview controls, not part of the intended TV interface.
 

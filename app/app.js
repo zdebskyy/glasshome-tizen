@@ -560,7 +560,7 @@
   function openSettings() {
     reorder = false;
     fullPreview = false;
-    $("control").hidden = true;
+    setControlVisible(false);
     view = "settings";
     ["home", "settings", "editor"].forEach(function (id) {
       $(id).hidden = id !== "settings";
@@ -633,13 +633,18 @@
     else if (view === "settings") renderSettings();
     else buttons($("editor-grid"))[0].focus();
   }
+  function setControlVisible(open) {
+    $("control").hidden = !open;
+    $("status-pill").setAttribute("aria-expanded", open ? "true" : "false");
+  }
   function openControl() {
     if (reorder) return;
-    $("control").hidden = false;
+    setControlVisible(true);
+    $("status-pill").hidden = true;
     $("control-power").focus();
   }
   function closeControl() {
-    $("control").hidden = true;
+    setControlVisible(false);
     $("status-pill").hidden = false;
     $("status-pill").focus();
   }
@@ -772,7 +777,9 @@
     );
   }
   document.addEventListener("keydown", function (e) {
-    if (!stage.contains(document.activeElement)) return;
+    var inStage = stage.contains(document.activeElement);
+    var overlayOpen = !$("control").hidden || !$("dialog").hidden;
+    if (!inStage && !overlayOpen) return;
     var k = keyName(e);
     if (k === "Escape" || k === "Backspace") {
       e.preventDefault();
@@ -780,6 +787,9 @@
       enterTimer = 0;
       if (!e.repeat) back();
       return;
+    }
+    if (!inStage && overlayOpen) {
+      (!$("dialog").hidden ? $("dialog-close") : $("control-close")).focus();
     }
     if (k && k.indexOf("Arrow") === 0) {
       e.preventDefault();
@@ -831,6 +841,10 @@
   $("dialog-close").onclick = closeDialog;
   $("shelf-hint").onclick = fullShelf;
   $("status-pill").onclick = openControl;
+  $("control-close").onclick = closeControl;
+  $("control").addEventListener("click", function (e) {
+    if (e.target === this) closeControl();
+  });
   $("back-settings").onclick = back;
   $("back-editor").onclick = closeEditor;
   $("control-power").onclick = function () {
@@ -845,14 +859,14 @@
   };
   $("preview-home").onclick = function () {
     if (reorder) reorder = false;
-    $("control").hidden = true;
+    setControlVisible(false);
     $("dialog").hidden = true;
     homeFocus = 0;
     home();
   };
   $("preview-grid").onclick = function () {
     reorder = false;
-    $("control").hidden = true;
+    setControlVisible(false);
     $("dialog").hidden = true;
     homeFocus = Math.min(cols(), sortedApps().length - 1);
     home();

@@ -21,6 +21,12 @@ GlassHome is an offline browser prototype. It contains no TV connection code, si
 
 The included images are browser screenshots of this implementation, not photographs of a running TV. Source checks cover syntax, bundled references and documentation links; they do not enforce ES5 or reproduce the TV engine.
 
+## Control Center dismissal regression
+
+A background click previously left Control Center open and moved focus outside the TV canvas, so Escape stopped being handled. The panel now closes on its backdrop or top toggle; Escape also works when an open overlay has lost focus. Closing restores focus to the opener and its expanded state. The underlying clock/profile capsule is hidden while the panel is open.
+
+Browser checks covered backdrop dismissal, explicit toggle dismissal, and Escape after clicking non-focusable text inside the panel. Each returned focus to the collapsed opener; the final browser check reported no warning/error entries.
+
 ## Repository packaging checks
 
 - The dependency-free preview server served HTML, versioned JavaScript and SVG assets successfully.

@@ -20,6 +20,8 @@
           id="status-pill"
           class="status-pill"
           aria-label="Відкрити Центр керування"
+          aria-haspopup="dialog"
+          aria-expanded="false"
         >
           <time class="clock">20:41</time
           ><span class="avatar" aria-hidden="true">О</span>
@@ -60,10 +62,20 @@
         </button>
       </section>
       <div id="control" class="control-scrim" hidden>
-        <aside class="control-panel" aria-label="Центр керування">
+        <aside
+          class="control-panel"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Центр керування"
+        >
           <div class="control-header">
             <time class="clock">20:41</time><span>◉</span
-            ><span class="control-selected">☷</span
+            ><button
+              id="control-close"
+              class="control-selected"
+              aria-label="Закрити Центр керування"
+            >
+              ☷</button
             ><span class="avatar">О</span>
           </div>
           <div class="control-grid">
