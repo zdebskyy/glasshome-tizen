@@ -14,6 +14,14 @@ The owner's requirement is to establish a backup and a viable recovery path befo
 
 Keep device records, certificates, account data and backups private. The ignored `.local/` directory is a convenient working area, but a copy inside the checkout alone does not satisfy the separate-backup requirement.
 
+## Documented Samsung settings backup
+
+Samsung's family e-Manual linked from the exact Q77A model page documents `Settings > General > System Manager > Samsung Account > My Account > Back up` (pages 47-48). It describes backing up TV settings to cloud storage and restoring those settings. Availability and actual recovery coverage on the target remain unverified; the function was not invoked.
+
+This is not evidence of a full firmware image or restoration of third-party app login sessions. It supplements the recovery investigation rather than satisfying the owner's backup requirement by itself. `Reset Smart Hub` explicitly removes Samsung/linked-service account and app information (page 207), so it is excluded from a design change that preserves authorizations.
+
+See the [native-menu research and source register](research/Q77A-2301-MENUS.uk.md). Ordinary menu observation comes before further menu/control changes; invasive access, tests, resets and writes are separate operations.
+
 ## Change policy
 
 - Select one compatible mechanism for Home and startup. Do not enable competing Vetro and CleanFrame Home controllers.

@@ -8,7 +8,7 @@ GlassHome is a custom home-screen prototype for Samsung Tizen TVs, using the App
 
 ![GlassHome home-screen prototype](docs/images/home.png)
 
-[Try locally](#run-the-preview) · [Controls](#controls) · [TV status](docs/STATUS.md) · [Backup and recovery](docs/RECOVERY.md) · [Design references](docs/DESIGN-REFERENCES.md)
+[Try locally](#run-the-preview) · [Controls](#controls) · [TV status](docs/STATUS.md) · [Native-menu research](docs/research/Q77A-2301-MENUS.uk.md) · [Backup and recovery](docs/RECOVERY.md) · [Design references](docs/DESIGN-REFERENCES.md)
 
 ## What works today
 
@@ -78,7 +78,9 @@ See [the reference register](docs/DESIGN-REFERENCES.md) for exact sources, imple
 
 ## TV compatibility and integration
 
-The intended first target is a **Samsung QE55Q77AATXXH**, with firmware **T-NKM2DEUC-2301.1** recorded from the owner's photo. Live capabilities and installation compatibility have not been checked. Browser success does not establish Tizen compatibility.
+The intended first target is a **Samsung QE55Q77AATXXH**, with firmware **T-NKM2DEUC-2301.1** recorded from the owner's photo and confirmed current by the owner. Live capabilities and installation compatibility have not been checked. Browser success does not establish Tizen compatibility.
+
+Further menu and control changes are on hold pending verification of the target TV's native menus. [Documentary research](docs/research/Q77A-2301-MENUS.uk.md) records 208 candidate paths from Samsung's linked family manual, with source pages and availability caveats. They are not a verified live tree for firmware 2301.1 and are not imported into the app.
 
 The current source is HTML, CSS and JavaScript. It does not include a signed WGT, Samsung credentials, an SDB transport, a native Home helper or a Vetro backend. Runtime JavaScript uses ES5-style syntax, but CSS, APIs, packaging and rendering still need validation on the target TV.
 

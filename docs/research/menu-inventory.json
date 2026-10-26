@@ -1,0 +1,2455 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-26",
+  "target": {
+    "model": "QE55Q77AATXXH",
+    "software": "T-NKM2DEUC-2301.1, BT-S",
+    "evidence": "owner_photo_and_owner_confirmation",
+    "live_connection": false
+  },
+  "scope": "Documented candidate inventory, not an exhaustive live menu tree or a verified 2301.1 delta. No entries are imported into the app.",
+  "ui_change_gate": "No further menu/control changes until target menu evidence is reviewed; TV writes also require the backup/recovery prerequisites.",
+  "sources": {
+    "official_model_page": "https://www.samsung.com/de/support/model/QE55Q77AATXXH/",
+    "manual": {
+      "file": "OSNDVBEUA-8.0.3_EM_OSCAR_EU_ENG_250710.0.pdf",
+      "source_url": "https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CDSite=UNI_DE&OriginYN=N&ModelType=N&ModelName=QE55Q77AAT&CttFileID=10646897&CDCttType=UM&VPath=UM%2F202507%2F20250711160308627%2FOSNDVBEUA-8.0.3_EM_OSCAR_EU_ENG_250710.0.pdf",
+      "modified_date": "2025-07-11",
+      "pdf_pages": 268,
+      "sha256": "2388b4460bf8aa7cc06b82c02fe98eb8e17467640a8e7d5156eb7dc200c0df49"
+    },
+    "firmware_listing": {
+      "file": "T-NKM2DEUC.zip",
+      "version": "2301.1",
+      "modified_date": "2026-01-28",
+      "downloaded": false
+    }
+  },
+  "entries": [
+    {
+      "path": ["Home", "Settings"],
+      "manual_pages": [38, 39, 40, 41, 42, 43],
+      "kind": "surface",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Home", "Source"],
+      "manual_pages": [38, 39, 40, 41, 42, 43],
+      "kind": "surface",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Home", "SmartThings"],
+      "manual_pages": [38, 39, 40, 41, 42, 43],
+      "kind": "surface",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Home", "Search"],
+      "manual_pages": [38, 39, 40, 41, 42, 43],
+      "kind": "surface",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Home", "Apps"],
+      "manual_pages": [38, 39, 40, 41, 42, 43],
+      "kind": "surface",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Home", "Multi View"],
+      "manual_pages": [38, 39, 40, 41, 42, 43],
+      "kind": "surface",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Home", "Ambient Mode"],
+      "manual_pages": [38, 39, 40, 41, 42, 43],
+      "kind": "surface",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Home", "Home"],
+      "manual_pages": [38, 39, 40, 41, 42, 43],
+      "kind": "surface",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Home", "Universal Guide"],
+      "manual_pages": [38, 39, 40, 41, 42, 43],
+      "kind": "surface",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "e-Manual"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Intelligent Mode"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Picture Mode"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Sound Mode"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Sound Output"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Game Mode"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Subtitle"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Audio Language"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "PIP"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Network"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Picture Size"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Colour Tone"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Picture Clarity"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Contrast Enhancer"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": [
+        "Home",
+        "Settings",
+        "Quick settings",
+        "Digital Output Audio Format"
+      ],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Colour Space"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Device Care"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "On Timer"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "Off Timer"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Home", "Settings", "Quick settings", "All Settings"],
+      "manual_pages": [38, 39, 40, 41],
+      "kind": "shortcut",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Not a guaranteed simultaneous list: shortcuts depend on model, region, input and clock; Game Mode needs an external source. The manual lists broader-family options."
+    },
+    {
+      "path": ["Settings", "Picture", "Picture Mode"],
+      "manual_pages": [120, 121, 125, 126],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings"],
+      "manual_pages": [120, 121, 125, 126],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "Picture", "Picture Size Settings"],
+      "manual_pages": [120, 121, 125, 126],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "Picture", "PIP"],
+      "manual_pages": [120, 121, 125, 126],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "Brightness"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "Contrast"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "Sharpness"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "Colour"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "Tint (G/R)"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": [
+        "Settings",
+        "Picture",
+        "Expert Settings",
+        "Apply Picture Settings"
+      ],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": [
+        "Settings",
+        "Picture",
+        "Expert Settings",
+        "Picture Clarity Settings"
+      ],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "Local Dimming"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "Contrast Enhancer"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "Film Mode"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "Colour Tone"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "White Balance"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "Gamma"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "Shadow Detail"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "RGB Only Mode"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": [
+        "Settings",
+        "Picture",
+        "Expert Settings",
+        "Colour Space Settings"
+      ],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Expert Settings", "Reset Picture"],
+      "manual_pages": [121],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Local Dimming is explicitly model/region dependent; do not infer it from Q80A support. Film Mode is input dependent. Numerical ranges and enum codes are not established for this target."
+    },
+    {
+      "path": ["Settings", "Picture", "Picture Size Settings", "Picture Size"],
+      "manual_pages": [126],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Options depend on country, source, signal, app and selected size; Zoom and Position requires Custom."
+    },
+    {
+      "path": ["Settings", "Picture", "Picture Size Settings", "Auto Wide"],
+      "manual_pages": [126],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Options depend on country, source, signal, app and selected size; Zoom and Position requires Custom."
+    },
+    {
+      "path": [
+        "Settings",
+        "Picture",
+        "Picture Size Settings",
+        "4:3 Screen Size"
+      ],
+      "manual_pages": [126],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Options depend on country, source, signal, app and selected size; Zoom and Position requires Custom."
+    },
+    {
+      "path": ["Settings", "Picture", "Picture Size Settings", "Fit to screen"],
+      "manual_pages": [126],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Options depend on country, source, signal, app and selected size; Zoom and Position requires Custom."
+    },
+    {
+      "path": [
+        "Settings",
+        "Picture",
+        "Picture Size Settings",
+        "Zoom and Position"
+      ],
+      "manual_pages": [126],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Options depend on country, source, signal, app and selected size; Zoom and Position requires Custom."
+    },
+    {
+      "path": ["Settings", "Sound", "Sound Mode"],
+      "manual_pages": [127, 129, 130],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "Sound", "Sound Output"],
+      "manual_pages": [127, 129, 130],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "Sound", "Expert Settings"],
+      "manual_pages": [127, 129, 130],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "Sound", "Wi-Fi Speaker Surround Setup"],
+      "manual_pages": [127, 129, 130],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "Sound", "Sound Output", "Bluetooth Speaker List"],
+      "manual_pages": [129],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Pairing and outputs depend on actual connected devices. Do not fabricate an output or report a successful connection."
+    },
+    {
+      "path": ["Settings", "Sound", "Expert Settings", "Balance"],
+      "manual_pages": [127, 128],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Equaliser is unavailable with specified adaptive/game/amplify modes. Pass-through/eARC/delay/Atmos depend on the source, connection and receiver."
+    },
+    {
+      "path": ["Settings", "Sound", "Expert Settings", "Equaliser"],
+      "manual_pages": [127, 128],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Equaliser is unavailable with specified adaptive/game/amplify modes. Pass-through/eARC/delay/Atmos depend on the source, connection and receiver."
+    },
+    {
+      "path": ["Settings", "Sound", "Expert Settings", "HDMI-eARC Mode"],
+      "manual_pages": [127, 128],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Equaliser is unavailable with specified adaptive/game/amplify modes. Pass-through/eARC/delay/Atmos depend on the source, connection and receiver."
+    },
+    {
+      "path": [
+        "Settings",
+        "Sound",
+        "Expert Settings",
+        "Digital Output Audio Format"
+      ],
+      "manual_pages": [127, 128],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Equaliser is unavailable with specified adaptive/game/amplify modes. Pass-through/eARC/delay/Atmos depend on the source, connection and receiver."
+    },
+    {
+      "path": [
+        "Settings",
+        "Sound",
+        "Expert Settings",
+        "Digital Output Audio Delay"
+      ],
+      "manual_pages": [127, 128],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Equaliser is unavailable with specified adaptive/game/amplify modes. Pass-through/eARC/delay/Atmos depend on the source, connection and receiver."
+    },
+    {
+      "path": [
+        "Settings",
+        "Sound",
+        "Expert Settings",
+        "Dolby Atmos Compatibility"
+      ],
+      "manual_pages": [127, 128],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Equaliser is unavailable with specified adaptive/game/amplify modes. Pass-through/eARC/delay/Atmos depend on the source, connection and receiver."
+    },
+    {
+      "path": ["Settings", "Sound", "Expert Settings", "Auto Volume"],
+      "manual_pages": [127, 128],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Equaliser is unavailable with specified adaptive/game/amplify modes. Pass-through/eARC/delay/Atmos depend on the source, connection and receiver."
+    },
+    {
+      "path": ["Settings", "Sound", "Expert Settings", "Sound Feedback"],
+      "manual_pages": [127, 128],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Equaliser is unavailable with specified adaptive/game/amplify modes. Pass-through/eARC/delay/Atmos depend on the source, connection and receiver."
+    },
+    {
+      "path": ["Settings", "Sound", "Expert Settings", "Reset Sound"],
+      "manual_pages": [127, 128],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Equaliser is unavailable with specified adaptive/game/amplify modes. Pass-through/eARC/delay/Atmos depend on the source, connection and receiver."
+    },
+    {
+      "path": ["Settings", "General", "Network"],
+      "manual_pages": [8, 45, 46, 118, 122, 131, 134, 137, 144, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "General", "Intelligent Mode Settings"],
+      "manual_pages": [8, 45, 46, 118, 122, 131, 134, 137, 144, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "General", "External Device Manager"],
+      "manual_pages": [8, 45, 46, 118, 122, 131, 134, 137, 144, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "General", "System Manager"],
+      "manual_pages": [8, 45, 46, 118, 122, 131, 134, 137, 144, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "General", "Smart Features"],
+      "manual_pages": [8, 45, 46, 118, 122, 131, 134, 137, 144, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "General", "Power and Energy Saving"],
+      "manual_pages": [8, 45, 46, 118, 122, 131, 134, 137, 144, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "General", "Accessibility"],
+      "manual_pages": [8, 45, 46, 118, 122, 131, 134, 137, 144, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "General", "Voice"],
+      "manual_pages": [8, 45, 46, 118, 122, 131, 134, 137, 144, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "General", "Apple AirPlay Settings"],
+      "manual_pages": [8, 45, 46, 118, 122, 131, 134, 137, 144, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "General", "Reset"],
+      "manual_pages": [8, 45, 46, 118, 122, 131, 134, 137, 144, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "General", "Network", "Open Network Settings"],
+      "manual_pages": [8, 9, 10],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "General", "Network", "Network Status"],
+      "manual_pages": [8, 9, 10],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "General", "Network", "Reset Network"],
+      "manual_pages": [8, 9, 10],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Network",
+        "Expert Settings",
+        "Power On with Mobile"
+      ],
+      "manual_pages": [11],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "IP Remote requires Power On with Mobile; network changes are outside the documentary research scope."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Network",
+        "Expert Settings",
+        "IP Remote"
+      ],
+      "manual_pages": [11],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "IP Remote requires Power On with Mobile; network changes are outside the documentary research scope."
+    },
+    {
+      "path": ["Settings", "General", "Network", "Expert Settings", "Wi-Fi"],
+      "manual_pages": [11],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "IP Remote requires Power On with Mobile; network changes are outside the documentary research scope."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "External Device Manager",
+        "Anynet+ (HDMI-CEC)"
+      ],
+      "manual_pages": [30, 31, 35, 122, 123, 124, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Game and HDMI controls depend on source, active port, signal and connected device. Presence in this manual is not proof of availability on Q77A."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "External Device Manager",
+        "Input Device Manager"
+      ],
+      "manual_pages": [30, 31, 35, 122, 123, 124, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Game and HDMI controls depend on source, active port, signal and connected device. Presence in this manual is not proof of availability on Q77A."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "External Device Manager",
+        "Game Mode Settings"
+      ],
+      "manual_pages": [30, 31, 35, 122, 123, 124, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Game and HDMI controls depend on source, active port, signal and connected device. Presence in this manual is not proof of availability on Q77A."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "External Device Manager",
+        "Input Signal Plus"
+      ],
+      "manual_pages": [30, 31, 35, 122, 123, 124, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Game and HDMI controls depend on source, active port, signal and connected device. Presence in this manual is not proof of availability on Q77A."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "External Device Manager",
+        "HDMI Black Level"
+      ],
+      "manual_pages": [30, 31, 35, 122, 123, 124, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Game and HDMI controls depend on source, active port, signal and connected device. Presence in this manual is not proof of availability on Q77A."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "External Device Manager",
+        "Device Connection Manager"
+      ],
+      "manual_pages": [30, 31, 35, 122, 123, 124, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Game and HDMI controls depend on source, active port, signal and connected device. Presence in this manual is not proof of availability on Q77A."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "External Device Manager",
+        "Input Device Manager",
+        "Keyboard Settings"
+      ],
+      "manual_pages": [35],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "External Device Manager",
+        "Input Device Manager",
+        "Mouse Settings"
+      ],
+      "manual_pages": [35],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "External Device Manager",
+        "Game Mode Settings",
+        "Game Mode"
+      ],
+      "manual_pages": [122, 123],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Game HDR requires HDR input while in Game Mode; on some models Game HDR has another parent. The exact target path must be checked."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "External Device Manager",
+        "Game Mode Settings",
+        "Surround Sound"
+      ],
+      "manual_pages": [122, 123],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Game HDR requires HDR input while in Game Mode; on some models Game HDR has another parent. The exact target path must be checked."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "External Device Manager",
+        "Game Mode Settings",
+        "Dynamic Black Equalizer"
+      ],
+      "manual_pages": [122, 123],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Game HDR requires HDR input while in Game Mode; on some models Game HDR has another parent. The exact target path must be checked."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "External Device Manager",
+        "Game Mode Settings",
+        "Game Motion Plus Settings"
+      ],
+      "manual_pages": [122, 123],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Game HDR requires HDR input while in Game Mode; on some models Game HDR has another parent. The exact target path must be checked."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "External Device Manager",
+        "Game Mode Settings",
+        "Game HDR"
+      ],
+      "manual_pages": [122, 123],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Game HDR requires HDR input while in Game Mode; on some models Game HDR has another parent. The exact target path must be checked."
+    },
+    {
+      "path": ["Settings", "General", "System Manager", "Device Name"],
+      "manual_pages": [11, 47, 131, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Button Lock, USB Lock and Usage Mode carry model/region qualifications; PIN/account operations are not part of menu observation."
+    },
+    {
+      "path": ["Settings", "General", "System Manager", "Time"],
+      "manual_pages": [11, 47, 131, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Button Lock, USB Lock and Usage Mode carry model/region qualifications; PIN/account operations are not part of menu observation."
+    },
+    {
+      "path": ["Settings", "General", "System Manager", "Samsung Account"],
+      "manual_pages": [11, 47, 131, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Button Lock, USB Lock and Usage Mode carry model/region qualifications; PIN/account operations are not part of menu observation."
+    },
+    {
+      "path": ["Settings", "General", "System Manager", "Language"],
+      "manual_pages": [11, 47, 131, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Button Lock, USB Lock and Usage Mode carry model/region qualifications; PIN/account operations are not part of menu observation."
+    },
+    {
+      "path": ["Settings", "General", "System Manager", "Change PIN"],
+      "manual_pages": [11, 47, 131, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Button Lock, USB Lock and Usage Mode carry model/region qualifications; PIN/account operations are not part of menu observation."
+    },
+    {
+      "path": ["Settings", "General", "System Manager", "Usage Mode"],
+      "manual_pages": [11, 47, 131, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Button Lock, USB Lock and Usage Mode carry model/region qualifications; PIN/account operations are not part of menu observation."
+    },
+    {
+      "path": ["Settings", "General", "System Manager", "Button Lock"],
+      "manual_pages": [11, 47, 131, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Button Lock, USB Lock and Usage Mode carry model/region qualifications; PIN/account operations are not part of menu observation."
+    },
+    {
+      "path": ["Settings", "General", "System Manager", "USB Lock"],
+      "manual_pages": [11, 47, 131, 145, 146],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Button Lock, USB Lock and Usage Mode carry model/region qualifications; PIN/account operations are not part of menu observation."
+    },
+    {
+      "path": ["Settings", "General", "System Manager", "Time", "Clock"],
+      "manual_pages": [131, 132, 133],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Timers require clock setup; On/Off Timer may be model/region dependent."
+    },
+    {
+      "path": ["Settings", "General", "System Manager", "Time", "Sleep Timer"],
+      "manual_pages": [131, 132, 133],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Timers require clock setup; On/Off Timer may be model/region dependent."
+    },
+    {
+      "path": ["Settings", "General", "System Manager", "Time", "On Timer"],
+      "manual_pages": [131, 132, 133],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Timers require clock setup; On/Off Timer may be model/region dependent."
+    },
+    {
+      "path": ["Settings", "General", "System Manager", "Time", "Off Timer"],
+      "manual_pages": [131, 132, 133],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Timers require clock setup; On/Off Timer may be model/region dependent."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "System Manager",
+        "Samsung Account",
+        "My Account",
+        "Back up"
+      ],
+      "manual_pages": [47, 48],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Account-dependent. Back up is documented for TV settings in cloud storage, not a full firmware image or proof of third-party app session recovery."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "System Manager",
+        "Samsung Account",
+        "My Account",
+        "Edit profile"
+      ],
+      "manual_pages": [47, 48],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Account-dependent. Back up is documented for TV settings in cloud storage, not a full firmware image or proof of third-party app session recovery."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "System Manager",
+        "Samsung Account",
+        "My Account",
+        "Payment Info"
+      ],
+      "manual_pages": [47, 48],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Account-dependent. Back up is documented for TV settings in cloud storage, not a full firmware image or proof of third-party app session recovery."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "System Manager",
+        "Samsung Account",
+        "My Account",
+        "TV Registration"
+      ],
+      "manual_pages": [47, 48],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Account-dependent. Back up is documented for TV settings in cloud storage, not a full firmware image or proof of third-party app session recovery."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "System Manager",
+        "Samsung Account",
+        "My Account",
+        "Sync Internet"
+      ],
+      "manual_pages": [47, 48],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Account-dependent. Back up is documented for TV settings in cloud storage, not a full firmware image or proof of third-party app session recovery."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "System Manager",
+        "Samsung Account",
+        "My Account",
+        "Remove Account"
+      ],
+      "manual_pages": [47, 48],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Account-dependent. Back up is documented for TV settings in cloud storage, not a full firmware image or proof of third-party app session recovery."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "System Manager",
+        "Samsung Account",
+        "My Account",
+        "Terms & Conditions, Privacy Policy"
+      ],
+      "manual_pages": [47, 48],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Account-dependent. Back up is documented for TV settings in cloud storage, not a full firmware image or proof of third-party app session recovery."
+    },
+    {
+      "path": ["Settings", "General", "Smart Features", "Autorun Smart Hub"],
+      "manual_pages": [45, 46],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Last-app resume depends on the app/model. Business TV and Multi View entries are conditional, not a promise that Q77A shows them."
+    },
+    {
+      "path": ["Settings", "General", "Smart Features", "Autorun Last App"],
+      "manual_pages": [45, 46],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Last-app resume depends on the app/model. Business TV and Multi View entries are conditional, not a promise that Q77A shows them."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Smart Features",
+        "Autorun Samsung Business TV App"
+      ],
+      "manual_pages": [45, 46],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Last-app resume depends on the app/model. Business TV and Multi View entries are conditional, not a promise that Q77A shows them."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Smart Features",
+        "Autorun Multi View Casting"
+      ],
+      "manual_pages": [45, 46],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Last-app resume depends on the app/model. Business TV and Multi View entries are conditional, not a promise that Q77A shows them."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Intelligent Mode Settings",
+        "Intelligent Mode"
+      ],
+      "manual_pages": [118, 119],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The manual excludes specified series/sizes; subfeatures depend on sensor, TV Speaker output, mode and app. User/device confirmation is still required for every subfeature."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Intelligent Mode Settings",
+        "Adaptive Picture"
+      ],
+      "manual_pages": [118, 119],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The manual excludes specified series/sizes; subfeatures depend on sensor, TV Speaker output, mode and app. User/device confirmation is still required for every subfeature."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Intelligent Mode Settings",
+        "Active Voice Amplifier"
+      ],
+      "manual_pages": [118, 119],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The manual excludes specified series/sizes; subfeatures depend on sensor, TV Speaker output, mode and app. User/device confirmation is still required for every subfeature."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Intelligent Mode Settings",
+        "Adaptive Sound+"
+      ],
+      "manual_pages": [118, 119],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The manual excludes specified series/sizes; subfeatures depend on sensor, TV Speaker output, mode and app. User/device confirmation is still required for every subfeature."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Intelligent Mode Settings",
+        "Adaptive Volume"
+      ],
+      "manual_pages": [118, 119],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The manual excludes specified series/sizes; subfeatures depend on sensor, TV Speaker output, mode and app. User/device confirmation is still required for every subfeature."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Power and Energy Saving",
+        "Brightness Optimisation"
+      ],
+      "manual_pages": [134, 135],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Adaptive Picture disables several brightness controls; Game Mode affects Motion Lighting. Remote battery is model dependent."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Power and Energy Saving",
+        "Minimum Brightness"
+      ],
+      "manual_pages": [134, 135],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Adaptive Picture disables several brightness controls; Game Mode affects Motion Lighting. Remote battery is model dependent."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Power and Energy Saving",
+        "Brightness Reduction"
+      ],
+      "manual_pages": [134, 135],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Adaptive Picture disables several brightness controls; Game Mode affects Motion Lighting. Remote battery is model dependent."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Power and Energy Saving",
+        "Motion Lighting"
+      ],
+      "manual_pages": [134, 135],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Adaptive Picture disables several brightness controls; Game Mode affects Motion Lighting. Remote battery is model dependent."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Power and Energy Saving",
+        "Screen Saver"
+      ],
+      "manual_pages": [134, 135],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Adaptive Picture disables several brightness controls; Game Mode affects Motion Lighting. Remote battery is model dependent."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Power and Energy Saving",
+        "Auto Power Off"
+      ],
+      "manual_pages": [134, 135],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Adaptive Picture disables several brightness controls; Game Mode affects Motion Lighting. Remote battery is model dependent."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Power and Energy Saving",
+        "Available Remote Battery"
+      ],
+      "manual_pages": [134, 135],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Adaptive Picture disables several brightness controls; Game Mode affects Motion Lighting. Remote battery is model dependent."
+    },
+    {
+      "path": ["Settings", "General", "Accessibility", "Voice Guide Settings"],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Accessibility",
+        "Audio Description Settings"
+      ],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": ["Settings", "General", "Accessibility", "Picture Off"],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": ["Settings", "General", "Accessibility", "High Contrast"],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": ["Settings", "General", "Accessibility", "Greyscale"],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": ["Settings", "General", "Accessibility", "Colour Inversion"],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": ["Settings", "General", "Accessibility", "Enlarge"],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": ["Settings", "General", "Accessibility", "Learn TV Remote"],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": ["Settings", "General", "Accessibility", "Menu Learning Screen"],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": ["Settings", "General", "Accessibility", "Subtitle Settings"],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": ["Settings", "General", "Accessibility", "Multi-output Audio"],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Accessibility",
+        "Sign Language Zoom Settings"
+      ],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Accessibility",
+        "Remote Button Repeat Settings"
+      ],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": [
+        "Settings",
+        "General",
+        "Accessibility",
+        "Accessibility Shortcut Settings"
+      ],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": ["Settings", "General", "Accessibility", "Time to Take Action"],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": ["Settings", "General", "Accessibility", "Moving Text and Image"],
+      "manual_pages": [137, 138, 139, 140, 141, 142, 143],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Some entries are model, region, language, broadcast or connected-device dependent."
+    },
+    {
+      "path": ["Settings", "General", "Voice", "Voice Assistant"],
+      "manual_pages": [144],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Assistant choices and menus depend on model, region, language and sign-in; do not insert Apple Siri as a Samsung function."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Auto Tuning"],
+      "manual_pages": [111, 112, 113, 114, 115],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The parent Auto Tuning Settings may appear on some models/regions. Most broadcasting entries depend on live-TV source, tuner, country, provider or CI/CAM."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Cable Search Option"],
+      "manual_pages": [111, 112, 113, 114, 115],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The parent Auto Tuning Settings may appear on some models/regions. Most broadcasting entries depend on live-TV source, tuner, country, provider or CI/CAM."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Standby Auto Tuning"],
+      "manual_pages": [111, 112, 113, 114, 115],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The parent Auto Tuning Settings may appear on some models/regions. Most broadcasting entries depend on live-TV source, tuner, country, provider or CI/CAM."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Wake-up Timer"],
+      "manual_pages": [111, 112, 113, 114, 115],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The parent Auto Tuning Settings may appear on some models/regions. Most broadcasting entries depend on live-TV source, tuner, country, provider or CI/CAM."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Service Provider Settings"],
+      "manual_pages": [111, 112, 113, 114, 115],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The parent Auto Tuning Settings may appear on some models/regions. Most broadcasting entries depend on live-TV source, tuner, country, provider or CI/CAM."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Apply Channel Lock"],
+      "manual_pages": [111, 112, 113, 114, 115],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The parent Auto Tuning Settings may appear on some models/regions. Most broadcasting entries depend on live-TV source, tuner, country, provider or CI/CAM."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Mark Adult Channels"],
+      "manual_pages": [111, 112, 113, 114, 115],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The parent Auto Tuning Settings may appear on some models/regions. Most broadcasting entries depend on live-TV source, tuner, country, provider or CI/CAM."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Dual Sound"],
+      "manual_pages": [111, 112, 113, 114, 115],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The parent Auto Tuning Settings may appear on some models/regions. Most broadcasting entries depend on live-TV source, tuner, country, provider or CI/CAM."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Programme Rating Lock"],
+      "manual_pages": [111, 112, 113, 114, 115],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The parent Auto Tuning Settings may appear on some models/regions. Most broadcasting entries depend on live-TV source, tuner, country, provider or CI/CAM."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Common Interface"],
+      "manual_pages": [111, 112, 113, 114, 115],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The parent Auto Tuning Settings may appear on some models/regions. Most broadcasting entries depend on live-TV source, tuner, country, provider or CI/CAM."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Expert Settings"],
+      "manual_pages": [111, 112, 113, 114, 115],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "The parent Auto Tuning Settings may appear on some models/regions. Most broadcasting entries depend on live-TV source, tuner, country, provider or CI/CAM."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Expert Settings", "Manual Scan"],
+      "manual_pages": [115, 116, 117, 147],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Broadcast-specific and regional options. HbbTV may be unavailable by region. Do not treat a greyed-out item as absent."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Expert Settings", "Fine Tune"],
+      "manual_pages": [115, 116, 117, 147],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Broadcast-specific and regional options. HbbTV may be unavailable by region. Do not treat a greyed-out item as absent."
+    },
+    {
+      "path": [
+        "Settings",
+        "Broadcasting",
+        "Expert Settings",
+        "Transfer Channel List"
+      ],
+      "manual_pages": [115, 116, 117, 147],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Broadcast-specific and regional options. HbbTV may be unavailable by region. Do not treat a greyed-out item as absent."
+    },
+    {
+      "path": [
+        "Settings",
+        "Broadcasting",
+        "Expert Settings",
+        "Edit Channel Numbers"
+      ],
+      "manual_pages": [115, 116, 117, 147],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Broadcast-specific and regional options. HbbTV may be unavailable by region. Do not treat a greyed-out item as absent."
+    },
+    {
+      "path": [
+        "Settings",
+        "Broadcasting",
+        "Expert Settings",
+        "Delete CAM Operator Profile"
+      ],
+      "manual_pages": [115, 116, 117, 147],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Broadcast-specific and regional options. HbbTV may be unavailable by region. Do not treat a greyed-out item as absent."
+    },
+    {
+      "path": [
+        "Settings",
+        "Broadcasting",
+        "Expert Settings",
+        "Satellite System"
+      ],
+      "manual_pages": [115, 116, 117, 147],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Broadcast-specific and regional options. HbbTV may be unavailable by region. Do not treat a greyed-out item as absent."
+    },
+    {
+      "path": [
+        "Settings",
+        "Broadcasting",
+        "Expert Settings",
+        "Teletext Language Settings"
+      ],
+      "manual_pages": [115, 116, 117, 147],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Broadcast-specific and regional options. HbbTV may be unavailable by region. Do not treat a greyed-out item as absent."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Expert Settings", "Audio Options"],
+      "manual_pages": [115, 116, 117, 147],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Broadcast-specific and regional options. HbbTV may be unavailable by region. Do not treat a greyed-out item as absent."
+    },
+    {
+      "path": [
+        "Settings",
+        "Broadcasting",
+        "Expert Settings",
+        "TVkey Interface"
+      ],
+      "manual_pages": [115, 116, 117, 147],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Broadcast-specific and regional options. HbbTV may be unavailable by region. Do not treat a greyed-out item as absent."
+    },
+    {
+      "path": [
+        "Settings",
+        "Broadcasting",
+        "Expert Settings",
+        "Digital Text (MHEG)"
+      ],
+      "manual_pages": [115, 116, 117, 147],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Broadcast-specific and regional options. HbbTV may be unavailable by region. Do not treat a greyed-out item as absent."
+    },
+    {
+      "path": ["Settings", "Broadcasting", "Expert Settings", "HbbTV Settings"],
+      "manual_pages": [115, 116, 117, 147],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Broadcast-specific and regional options. HbbTV may be unavailable by region. Do not treat a greyed-out item as absent."
+    },
+    {
+      "path": ["Settings", "Support", "Software Update"],
+      "manual_pages": [136, 207, 208],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "Support", "Device Care"],
+      "manual_pages": [136, 207, 208],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "Support", "Remote Management"],
+      "manual_pages": [136, 207, 208],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "Support", "About This TV"],
+      "manual_pages": [136, 207, 208],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "Support", "Software Update", "Update Now"],
+      "manual_pages": [136],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Documented only; do not update firmware during inventory research."
+    },
+    {
+      "path": ["Settings", "Support", "Software Update", "Auto update"],
+      "manual_pages": [136],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Documented only; do not update firmware during inventory research."
+    },
+    {
+      "path": ["Settings", "Support", "Device Care", "Self Diagnosis"],
+      "manual_pages": [207, 208],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": ["Settings", "Support", "Device Care", "Request Support"],
+      "manual_pages": [207, 208],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Subject to model, region, current source and runtime availability; not observed on the target TV."
+    },
+    {
+      "path": [
+        "Settings",
+        "Support",
+        "Device Care",
+        "Self Diagnosis",
+        "Video Test"
+      ],
+      "manual_pages": [207],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Signal Information needs a digital channel; tests and resets are actions, not passive observation. Reset Smart Hub removes account/service/app information."
+    },
+    {
+      "path": [
+        "Settings",
+        "Support",
+        "Device Care",
+        "Self Diagnosis",
+        "Picture Test"
+      ],
+      "manual_pages": [207],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Signal Information needs a digital channel; tests and resets are actions, not passive observation. Reset Smart Hub removes account/service/app information."
+    },
+    {
+      "path": [
+        "Settings",
+        "Support",
+        "Device Care",
+        "Self Diagnosis",
+        "Sound Test"
+      ],
+      "manual_pages": [207],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Signal Information needs a digital channel; tests and resets are actions, not passive observation. Reset Smart Hub removes account/service/app information."
+    },
+    {
+      "path": [
+        "Settings",
+        "Support",
+        "Device Care",
+        "Self Diagnosis",
+        "HDMI Troubleshooting"
+      ],
+      "manual_pages": [207],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Signal Information needs a digital channel; tests and resets are actions, not passive observation. Reset Smart Hub removes account/service/app information."
+    },
+    {
+      "path": [
+        "Settings",
+        "Support",
+        "Device Care",
+        "Self Diagnosis",
+        "Signal Information"
+      ],
+      "manual_pages": [207],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Signal Information needs a digital channel; tests and resets are actions, not passive observation. Reset Smart Hub removes account/service/app information."
+    },
+    {
+      "path": [
+        "Settings",
+        "Support",
+        "Device Care",
+        "Self Diagnosis",
+        "Smart Hub Connection Test"
+      ],
+      "manual_pages": [207],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Signal Information needs a digital channel; tests and resets are actions, not passive observation. Reset Smart Hub removes account/service/app information."
+    },
+    {
+      "path": [
+        "Settings",
+        "Support",
+        "Device Care",
+        "Self Diagnosis",
+        "Reset Smart Hub"
+      ],
+      "manual_pages": [207],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Signal Information needs a digital channel; tests and resets are actions, not passive observation. Reset Smart Hub removes account/service/app information."
+    },
+    {
+      "path": ["Settings", "Terms & Privacy"],
+      "manual_pages": [37],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Documented standalone settings route; exact root position and localised label require confirmation."
+    },
+    {
+      "path": ["Apps", "Settings", "Delete"],
+      "manual_pages": [74, 75],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Standard apps cannot normally be uninstalled. Delete removes related app data; Lock needs the PIN. Reinstall and Auto update can change app state."
+    },
+    {
+      "path": ["Apps", "Settings", "Add to Home"],
+      "manual_pages": [74, 75],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Standard apps cannot normally be uninstalled. Delete removes related app data; Lock needs the PIN. Reinstall and Auto update can change app state."
+    },
+    {
+      "path": ["Apps", "Settings", "Lock/Unlock"],
+      "manual_pages": [74, 75],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Standard apps cannot normally be uninstalled. Delete removes related app data; Lock needs the PIN. Reinstall and Auto update can change app state."
+    },
+    {
+      "path": ["Apps", "Settings", "Move"],
+      "manual_pages": [74, 75],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Standard apps cannot normally be uninstalled. Delete removes related app data; Lock needs the PIN. Reinstall and Auto update can change app state."
+    },
+    {
+      "path": ["Apps", "Settings", "Reinstall"],
+      "manual_pages": [74, 75],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Standard apps cannot normally be uninstalled. Delete removes related app data; Lock needs the PIN. Reinstall and Auto update can change app state."
+    },
+    {
+      "path": ["Apps", "Settings", "View Details"],
+      "manual_pages": [74, 75],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Standard apps cannot normally be uninstalled. Delete removes related app data; Lock needs the PIN. Reinstall and Auto update can change app state."
+    },
+    {
+      "path": ["Apps", "Settings", "Auto update"],
+      "manual_pages": [74, 75],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Standard apps cannot normally be uninstalled. Delete removes related app data; Lock needs the PIN. Reinstall and Auto update can change app state."
+    },
+    {
+      "path": ["Ambient Mode", "Ambient Settings", "Auto Brightness"],
+      "manual_pages": [49, 50],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Ambient Mode is separate from The Frame Art Mode. Do not infer Art Mode support for Q77A from the same family manual."
+    },
+    {
+      "path": ["Ambient Mode", "Ambient Settings", "Sleep After"],
+      "manual_pages": [49, 50],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Ambient Mode is separate from The Frame Art Mode. Do not infer Art Mode support for Q77A from the same family manual."
+    },
+    {
+      "path": ["Ambient Mode", "Ambient Settings", "Screen Settings"],
+      "manual_pages": [49, 50],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Ambient Mode is separate from The Frame Art Mode. Do not infer Art Mode support for Q77A from the same family manual."
+    },
+    {
+      "path": ["Ambient Mode", "Ambient Settings", "Reset All Photos"],
+      "manual_pages": [49, 50],
+      "kind": "menu",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Ambient Mode is separate from The Frame Art Mode. Do not infer Art Mode support for Q77A from the same family manual."
+    },
+    {
+      "path": ["Game Bar", "Input Lag"],
+      "manual_pages": [96, 97, 98],
+      "kind": "context_surface_item",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Requires applicable Game Mode/source/remote. FPS/HDR/VRR fields include status indicators, not always writable settings."
+    },
+    {
+      "path": ["Game Bar", "FPS"],
+      "manual_pages": [96, 97, 98],
+      "kind": "context_surface_item",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Requires applicable Game Mode/source/remote. FPS/HDR/VRR fields include status indicators, not always writable settings."
+    },
+    {
+      "path": ["Game Bar", "HDR"],
+      "manual_pages": [96, 97, 98],
+      "kind": "context_surface_item",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Requires applicable Game Mode/source/remote. FPS/HDR/VRR fields include status indicators, not always writable settings."
+    },
+    {
+      "path": ["Game Bar", "VRR"],
+      "manual_pages": [96, 97, 98],
+      "kind": "context_surface_item",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Requires applicable Game Mode/source/remote. FPS/HDR/VRR fields include status indicators, not always writable settings."
+    },
+    {
+      "path": ["Game Bar", "Sound Output"],
+      "manual_pages": [96, 97, 98],
+      "kind": "context_surface_item",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Requires applicable Game Mode/source/remote. FPS/HDR/VRR fields include status indicators, not always writable settings."
+    },
+    {
+      "path": ["Game Bar", "Screen Ratio"],
+      "manual_pages": [96, 97, 98],
+      "kind": "context_surface_item",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Requires applicable Game Mode/source/remote. FPS/HDR/VRR fields include status indicators, not always writable settings."
+    },
+    {
+      "path": ["Game Bar", "Screen Position"],
+      "manual_pages": [96, 97, 98],
+      "kind": "context_surface_item",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Requires applicable Game Mode/source/remote. FPS/HDR/VRR fields include status indicators, not always writable settings."
+    },
+    {
+      "path": ["Game Bar", "Game Mode Settings"],
+      "manual_pages": [96, 97, 98],
+      "kind": "context_surface_item",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Requires applicable Game Mode/source/remote. FPS/HDR/VRR fields include status indicators, not always writable settings."
+    },
+    {
+      "path": ["Game Bar", "Troubleshooting"],
+      "manual_pages": [96, 97, 98],
+      "kind": "context_surface_item",
+      "evidence": "documented_model_family",
+      "present_on_target": null,
+      "read_verified": false,
+      "write_verified": false,
+      "conditions": "Requires applicable Game Mode/source/remote. FPS/HDR/VRR fields include status indicators, not always writable settings."
+    }
+  ]
+}

@@ -36,21 +36,29 @@ Browser checks covered backdrop dismissal, explicit toggle dismissal, and Escape
 
 ## Intended first device
 
-| Field                                | Evidence                                                                        |
-| ------------------------------------ | ------------------------------------------------------------------------------- |
-| Model                                | Samsung QE55Q77AATXXH, from the owner's photo                                   |
-| Firmware                             | T-NKM2DEUC-2301.1, from the owner's photo                                       |
-| Platform                             | Tizen 6.0 expected from the 2021 model generation; no live capability query yet |
-| Connection, signing and installation | Not performed                                                                   |
-| TV rendering and remote behavior     | Not tested                                                                      |
-| Backup and exact rollback            | Not established                                                                 |
+| Field                                | Evidence                                                                  |
+| ------------------------------------ | ------------------------------------------------------------------------- |
+| Model                                | Samsung QE55Q77AATXXH, from the owner's photo                             |
+| Firmware                             | T-NKM2DEUC-2301.1, from the owner's photo; confirmed current by the owner |
+| Platform                             | Tizen; exact runtime/API version not queried on the target                |
+| Connection, signing and installation | Not performed                                                             |
+| TV rendering and remote behavior     | Not tested                                                                |
+| Backup and exact rollback            | Not established                                                           |
+
+## Native-menu research
+
+The owner confirmed the photographed firmware is current and requested research of this model/firmware before further UI changes. Menu and control changes are on hold.
+
+[The research report (Ukrainian)](research/Q77A-2301-MENUS.uk.md) and [candidate inventory](research/menu-inventory.json) record 208 documented paths, page references and context restrictions. Samsung's exact model support page lists firmware 2301.1 and links a shared family manual; no complete firmware-specific menu delta was found in the reviewed public sources. All candidate availability values remain unknown, with no device read/write verification. The current prototype remains illustrative.
+
+The manual documents Samsung Account cloud backup of TV settings. It does not establish full firmware recovery or restoration of third-party app sessions. No backup was run. Only documentation changed during this research stage.
 
 ## Next work
 
-1. Review the visual adaptation and select the actual installed apps after a future capability/app-list check.
-2. Establish the recovery prerequisites before system modifications.
-3. Validate the frontend against the actual Tizen runtime and package/signing requirements.
-4. Add an explicit device adapter and verify native app launches, settings access and return to Samsung Home.
+1. Observe the actual native menu tree, labels, disabled states and relevant source/audio contexts on this TV; reconcile them with the inventory before changing menus or controls.
+2. Establish the recovery prerequisites before system modifications, including assessment of any access method that itself modifies the TV.
+3. Discover the actual installed apps and validate the frontend against the target runtime and packaging/signing requirements.
+4. Add a device adapter only for verified capabilities; check native app launches, settings access and return to Samsung Home.
 5. Evaluate one Home mechanism and selected Vetro system operations with measured resource use and verified rollback.
 
 Do not infer a RAM saving, smoother navigation or compatibility from this browser preview. No TV performance measurement has been made for GlassHome.
