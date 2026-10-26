@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <title>GlassHome · Samsung Tizen</title>
+    <link rel="stylesheet" href="style.css?v=2" />
+  </head>
+  <body>
+    <main
+      id="stage"
+      aria-label="Прототип оболонки Tizen за довідником Apple TV"
+    >
+      <div class="wallpaper" id="wallpaper"></div>
+      <div class="shade"></div>
+      <section id="home" aria-label="Головний екран">
+        <div id="shelf-brand" class="shelf-brand" aria-hidden="true"></div>
+        <button
+          id="status-pill"
+          class="status-pill"
+          aria-label="Відкрити Центр керування"
+        >
+          <time class="clock">20:41</time
+          ><span class="avatar" aria-hidden="true">О</span>
+        </button>
+        <button id="shelf-hint" class="shelf-hint">
+          Вгору — на весь екран <span aria-hidden="true">⌃</span>
+        </button>
+        <div id="dock-glass" class="dock-glass" aria-hidden="true"></div>
+        <div id="app-grid" class="app-grid" aria-label="Застосунки"></div>
+        <div id="reorder-hint" class="reorder-hint" hidden>
+          Перемістіть стрілками · Enter — зберегти · Esc — скасувати
+        </div>
+      </section>
+      <section id="settings" hidden aria-label="Налаштування">
+        <h1 id="settings-title">Налаштування</h1>
+        <div class="settings-art">
+          <div id="settings-icon" class="settings-icon"></div>
+          <p id="settings-description"></p>
+        </div>
+        <div class="settings-list">
+          <div id="settings-section"></div>
+          <div id="setting-rows"></div>
+          <p id="settings-note"></p>
+        </div>
+        <button id="back-settings" class="back-button" aria-label="Назад">
+          ‹
+        </button>
+      </section>
+      <section id="editor" hidden aria-label="Застосунки на головній">
+        <h1>Застосунки на головній</h1>
+        <p class="editor-intro">Виберіть застосунки, які хочете бачити.</p>
+        <div id="editor-grid"></div>
+        <p class="editor-note">
+          Це змінює ярлики макета. Застосунки залишаються встановленими.
+        </p>
+        <button id="back-editor" class="back-button" aria-label="Назад">
+          ‹
+        </button>
+      </section>
+      <div id="control" class="control-scrim" hidden>
+        <aside class="control-panel" aria-label="Центр керування">
+          <div class="control-header">
+            <time class="clock">20:41</time><span>◉</span
+            ><span class="control-selected">☷</span
+            ><span class="avatar">О</span>
+          </div>
+          <div class="control-grid">
+            <button id="control-power" class="control-tile power">
+              <span>⏻</span>Вимкнути
+            </button>
+            <button id="control-network" class="control-tile network">
+              <span>⌁</span>
+              <div>Wi-Fi<small>ТВ не підключено</small></div>
+            </button>
+            <button id="control-settings" class="control-tile">
+              <img src="assets/icons/settings.svg" alt="" />
+              <div>Налаштування</div>
+            </button>
+            <button id="control-home" class="control-tile">
+              <span>⌂</span>
+              <div>Samsung Home</div>
+            </button>
+          </div>
+          <p class="control-note">Локальний макет</p>
+        </aside>
+      </div>
+      <div id="dialog" class="dialog-scrim" hidden>
+        <section
+          class="dialog-box"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="dialog-title"
+          aria-describedby="dialog-copy"
+        >
+          <h2 id="dialog-title"></h2>
+          <p id="dialog-copy"></p>
+          <button id="dialog-close">OK</button>
+        </section>
+      </div>
+      <div id="toast" role="status" aria-live="polite" hidden></div>
+    </main>
+    <aside class="preview-bar" aria-label="Керування прототипом">
+      <span>Локальний макет · ТВ не підключено</span
+      ><button id="preview-home">Головна</button
+      ><button id="preview-grid">Сітка</button
+      ><button id="preview-settings">Налаштування</button
+      ><a
+        href="https://support.apple.com/guide/tv/welcome/tvos"
+        target="_blank"
+        rel="noreferrer"
+        >Довідник Apple ↗</a
+      >
+    </aside>
+    <script src="app.js?v=2"></script>
+  </body>
+</html>

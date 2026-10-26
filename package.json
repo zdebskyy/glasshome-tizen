@@ -1,0 +1,14 @@
+{
+  "name": "glasshome-tizen",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A tvOS-inspired home-screen prototype for Samsung Tizen TVs.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/preview.cjs",
+    "start": "node scripts/preview.cjs",
+    "check": "node scripts/check.cjs"
+  }
+}

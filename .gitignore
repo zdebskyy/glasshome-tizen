@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+.local/
+work/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+*.p12
+*.pfx
+*.pem
+*.key
+*.crt
+*.wgt
+*.tpk
