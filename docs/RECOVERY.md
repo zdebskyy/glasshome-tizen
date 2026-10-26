@@ -4,6 +4,18 @@ No TV backup has been created. GlassHome currently runs only in a browser and co
 
 The owner's requirement is to establish a backup and a viable recovery path before changes on the TV. This document records the intended sequence; it is not a claim that a complete firmware image or every application's login data can be recovered.
 
+## Mandatory device constraints
+
+The owner explicitly prohibits resetting or updating this TV under any circumstances. Preserve firmware **T-NKM2DEUC-2301.1** and the existing device state.
+
+- Do not perform a factory reset, Smart Hub reset, or settings reset, including as a troubleshooting, installation or region-change step.
+- Do not update, downgrade or reflash the TV firmware. Do not accept an SDK/helper prerequisite that requires a firmware change.
+- Do not change the Smart Hub region through a reset or another destructive process.
+- A backup does not waive these prohibitions. Recovery must restore specific preserved values/data without resetting or changing firmware; if that cannot be established, the dependent modification must not proceed.
+- Ordinary rebooting is distinct from resetting settings; no reboot or device operation has been performed during this research.
+
+These constraints take precedence over troubleshooting suggestions in linked third-party or Samsung documentation. No TV settings, including automatic-update controls, have been changed.
+
 ## Before a system change
 
 1. Confirm the exact model, firmware, architecture and available runtime/API capabilities. Separately assess any access method that itself modifies the device, including root acquisition.
@@ -29,7 +41,7 @@ See the [native-menu research and source register](research/Q77A-2301-MENUS.uk.m
 - Hide shortcuts independently of system cleanup. Disable only reviewed components and preserve their original state.
 - Do not equate Enable with recovery from Uninstall. Deleted packages may require a suitable installer, and restoration must be established separately.
 - Restore the original Home/startup assignment and physically test Samsung Home before removing the launcher or changing its app identity.
-- Reassess the recovery tools before firmware changes: a compatibility guard can reject a changed firmware during restore too.
+- Keep the current firmware fixed. If a recovery tool rejects it, stop the dependent operation rather than changing firmware or bypassing its compatibility checks.
 
 ## Reference approaches
 

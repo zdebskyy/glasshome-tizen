@@ -100,6 +100,8 @@ This integration is **planned, not implemented**. Keep the original apps and the
 
 **Backup and a viable rollback path are prerequisites for changes on the TV.** The current preview has not created either.
 
+**Device constraint: no resets or TV firmware updates under any circumstances.** This also excludes reset-based region changes and firmware downgrading/reflashing. A backup does not authorize these operations; dependent work must stop if it requires them. See the mandatory constraints in the recovery plan.
+
 Before integrating a launcher or changing system components, establish what can actually be copied and restored, preserve the original Home/startup settings and component states, and keep the recovery files outside the working checkout. A settings snapshot is not a full firmware image. Recovery of every application's login session has not been established.
 
 See [the recovery plan](docs/RECOVERY.md). No firmware flashing, factory reset, downgrade or system-package removal is part of the current prototype.
